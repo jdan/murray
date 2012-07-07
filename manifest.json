@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "default_title": "Murray"
+  },
+  "content_scripts": [
+    {
+      "js": ["lib/jquery.min.js", "murray.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "description": "No one will ever believe you",
+  "name": "Murray",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "version": "0.0.1"
+}
