@@ -6,15 +6,21 @@
     {
       "js": ["lib/jquery.min.js", "murray.js"],
       "img": ["images/murray.jpg"],
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
       "run_at": "document_end"
     }
   ],
   "description": "No one will ever believe you",
+  "icons": {
+		"16": "images/icon16.png",
+		"32": "images/icon32.png",
+		"64": "images/icon64.png",
+		"128": "images/icon128.png"
+	},
   "name": "Murray",
   "permissions": [
-    "http://*/*",
-    "https://*/*"
+    "http://*.facebook.com/*",
+    "https://*.facebook.com/*"
   ],
   "version": "0.0.1"
 }
