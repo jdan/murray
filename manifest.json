@@ -5,6 +5,7 @@
   "content_scripts": [
     {
       "js": ["lib/jquery.min.js", "murray.js"],
+      "img": ["images/murray.jpg"],
       "matches": ["http://*/*", "https://*/*"],
       "run_at": "document_end"
     }
