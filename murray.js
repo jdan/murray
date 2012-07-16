@@ -27,9 +27,7 @@ comment = function(text, like_count) {
             <a class="actorPic UIImageBlock_Image UIImageBlock_SMALL_Image" href="" tabindex="-1">                                   \
                 <img class="uiProfilePhoto uiProfilePhotoMedium img" src=' + IMG_SRC + ' alt=""></a>                                 \
                 <div class="commentContent UIImageBlock_Content UIImageBlock_SMALL_Content">                                         \
-                    <a class="actorName" href="">                                                                                    \
-                        Bill Murray                                                                                                  \
-                    </a>                                                                                                             \
+                    <a class="actorName" href="http://jordanscales.com">Bill Murray</a>                                              \
                     <span data-jsid="text" class="commentBody">                                                                      \
                         ' + text + '                                                                                                 \
                     </span>                                                                                                          \
@@ -46,7 +44,8 @@ comment = function(text, like_count) {
                                     Like                                                                                             \
                                 </span>                                                                                              \
                             </button> ·                                                                                              \
-                            <a data-hover="tooltip" data-tooltip-alignh="center" class="comment_like_button" rel="dialog" href="">   \
+                            <a data-hover="tooltip" data-tooltip-alignh="center" class="comment_like_button"                         \
+                                rel="dialog" href="http://jordanscales.com">                                                         \
                                 <i class="cmt_like_icon"></i>' + like_count + '                                                      \
                             </a>                                                                                                     \
                         </span>                                                                                                      \

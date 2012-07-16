@@ -1,7 +1,4 @@
 {
-  "browser_action": {
-    "default_title": "Murray"
-  },
   "content_scripts": [
     {
       "js": ["lib/jquery.min.js", "murray.js"],
@@ -22,5 +19,6 @@
     "http://*.facebook.com/*",
     "https://*.facebook.com/*"
   ],
-  "version": "0.0.1"
+  "update_url": "http://clients2.google.com/service/update2/crx",
+  "version": "0.0.1-1"
 }
