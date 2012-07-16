@@ -2,7 +2,7 @@
 
 Wouldn't it be nice if Bill Murray acknowledged you on Facebook?
 
-![murray](http://i.imgur.com/WcaPr.png)
+![murray](http://i.imgur.com/uDbQc.jpg)
 
 Install this extension and he might!
 
